@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>まるでtwitter</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  
+  <header>
+                <ul>
+                  <li><%= link_to "ホーム", root_path %></li>    
+                  <li><%= link_to "呟く", new_tweet_path %></li>
+                  <li><%= link_to "呟き一覧", tweets_path %></li>
+                </ul>
+          　       <img class="icon" src="<%= asset_path "Twitter_Logo_White_On_Blue.png" %>" alt="" width="30px" height="30px">
+      </header>
+
+<%= yield %>
+      
+        <footer>
+            <p>運営会社Yamaneko株式会社</p>
+            <p>© 2016-2017 Copyright Yamaneko Corp.</p>
+        </footer>
+</body>
+</html>

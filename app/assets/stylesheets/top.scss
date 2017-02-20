@@ -1,0 +1,94 @@
+// Place all the styles related to the Top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html{
+    min-height: 100%;
+    background-color:#EEEEEE;
+}
+
+header {
+    width: 100%;
+    background-color:#3399FF;
+    height: 54px;
+    position: relative;
+}
+img{
+    display:block;
+    text-align:center;
+}
+header ul {
+    margin: 0 auto;
+    list-style: none;
+}
+
+header ul a {
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+    color:white;
+}
+header li {
+    float:left;
+    width: auto;
+}
+header ul:after{
+    display:block;
+    clear:both;
+}
+.content img{
+    padding-left:5px;
+}
+.img-responsive center-block{
+    margin:0 auto;
+}
+.contents{
+    overflow:hidden;
+    padding-left:20px;
+    height:600px;
+}
+.content{
+    float:left;
+    padding:30px;
+}
+.user{
+    width:300px;
+    float:left;
+    padding:10px 0 0 20px;
+    height:200px;
+    background-color:white;
+    margin-top:20px;
+}
+.user li{
+    width:100%;
+    list-style:none;
+    padding-top:20px;
+}
+.btn {
+    margin-top:10px;
+    border-top: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #BBB;
+    border-bottom: 1px solid #BBB;
+　　color:#111;
+    width: 50px;
+    padding: 10px 0;
+    
+}
+
+
+footer {
+  width: 100%;
+  background-color:#3399FF;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin: auto;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  text-align:center;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+}
